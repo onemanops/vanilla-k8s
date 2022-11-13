@@ -1,7 +1,7 @@
 #### ON ALL NODES
     1  apt install sudo git vim -y
-    2  git clone https://github.com/onemanops/iac
-    3  cd iac
+    2  git clone https://github.com/onemanops/vanilla-k8s
+    3  cd vanilla-k8s
     4  ls
     5  sudo ./setup-container.sh
     6  sudo ./setup-kubetools.sh
@@ -18,5 +18,5 @@
         --discovery-token-ca-cert-hash sha256:6bc85310f8873946496a1ea8baea9ad34422298a7460be21248ffb2c9dda6c19
  
 #### ON THE CONTROL NODE
-   1  kubectl get nodes
+    1  kubectl get nodes
  
